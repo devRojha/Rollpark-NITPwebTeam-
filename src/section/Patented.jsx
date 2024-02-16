@@ -30,19 +30,19 @@ export function Patented(){
                     <div>
                         <img className="h-10" src={logo1} alt="" data-aos="fade-up"/>
                     </div>
-                    <div className="p-8 pl-0 pt-1" data-aos="fade-up">Industrial Fabrics International Award</div>
+                    <div className="p-8 pl-0 pt-1 max-sm:text-[10px]" data-aos="fade-up">Industrial Fabrics International Award</div>
                 </div>
                 <div className="flex flex-col">
                     <div>
                         <img className="h-10" src={logo2} alt="" data-aos="fade-up"/>
                     </div>
-                    <div className="p-8 pl-0 pt-1" data-aos="fade-up">Top 3 of 100 suppliers by CSX</div>
+                    <div className="p-8 pl-0 pt-1 max-sm:text-[10px]" data-aos="fade-up">Top 3 of 100 suppliers by CSX</div>
                 </div>
                 <div className="flex flex-col ">
                     <div>
                         <img className="h-10" src={logo3} alt="" data-aos="fade-up"/>
                     </div>
-                    <div className="p-8 pl-0 pt-1" data-aos="fade-up">3 Safety Awards from Advocare</div>
+                    <div className="p-8 pl-0 pt-1 max-sm:text-[10px]" data-aos="fade-up">3 Safety Awards from Advocare</div>
                 </div>
             </div>
           </div>

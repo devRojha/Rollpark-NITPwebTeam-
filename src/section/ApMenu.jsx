@@ -4,6 +4,7 @@ import "aos/dist/aos.css"
 import { useEffect } from "react";
 
 import { IoMdAdd } from "react-icons/io";
+import logo from "../assets/navlogo.png"
 
 export function ApMenu({menu, setMenu}){
     useEffect(()=>{
@@ -29,7 +30,7 @@ export function ApMenu({menu, setMenu}){
                     <button className="border p-2 rounded-full bg-orange-500 text-white font-bold">Get a Quote</button>
                 </div>
                 <div className="absolute left-10 bottom-10">
-                   <img className="h-12" src="src/assets/navlogo.png" alt="" />
+                   <img className="h-12" src={logo} alt="" />
                 </div>
                 
             </div>

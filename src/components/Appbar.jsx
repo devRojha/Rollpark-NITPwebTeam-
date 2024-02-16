@@ -18,7 +18,7 @@ export function Appbar({trans,setQuote,setMenu}){
           <div className='flex flex-col justify-center'>
             <div className='flex justify-end pr-8'>
               <button className="text-slate-700 mr-6">FAQ</button>
-            <div className='border border-slate-700 bg-green-300 hover:bg-orange-500 hover:text-slate-400 rounded-3xl'>
+            <div className={`border border-slate-700 ${!trans? "bg-green-500" : "bg-orange-300"} hover:bg-orange-500 hover:text-slate-400 rounded-3xl`}>
               <Button caption={"get a Quote"} onClick={()=>{
                 setQuote(true);
               }} />
@@ -35,8 +35,8 @@ export function Appbar({trans,setQuote,setMenu}){
             <div className='flex flex-col justify-center text-3xl text-green-500 col-span-1'>Rollpark</div>
           </div>
           <div className='flex flex-col justify-center'>
-            <div className='flex justify-end pr-8'>
-              <div className='border border-slate-700 bg-orange-300 hover:bg-orange-500 hover:text-slate-400 rounded-3xl'>
+            <div className='flex justify-end '>
+              <div className={`border border-slate-700 hover:bg-orange-300 ${!trans? "bg-green-500" : "bg-orange-300"} hover:text-slate-400 rounded-3xl`}>
                 <Button caption={"get a Quote"} onClick={()=>{
                   setQuote(true);
                 }} />

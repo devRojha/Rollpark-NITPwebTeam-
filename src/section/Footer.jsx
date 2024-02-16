@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import logo from "../assets/navlogo.png"
 
 export function Footer({setQuote}){
   useEffect(()=>{
@@ -38,7 +39,7 @@ export function Footer({setQuote}){
           <div className='flex'>
             <div className='text-slate-700 flex flex-col justify-center mr-2'>
               {/* here */}
-              <img className="h-20 max-sm:h-10 " src="src/assets/icon.png" alt="" />
+              <img className="h-20 max-sm:h-10" src={logo} alt="" />
             </div>
             <div className='flex flex-col justify-center'>
                 <div className='text-slate-700 font-bold text-xl max-sm:text-[7px] '>Rollpark</div>
