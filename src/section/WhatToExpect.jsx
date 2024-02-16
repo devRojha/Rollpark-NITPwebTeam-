@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+import worker from "../assets/workers.jpg"
 
 export function WhatToExpect(){
   useEffect(()=>{
@@ -28,7 +29,7 @@ export function WhatToExpect(){
             </div>
           </div>
           <div className='absolute flex flex-col justify-center right-4 z-2'>
-            <img className='h-60' src="src/assets/workers.jpg" alt="L" />
+            <img className='h-60' src={worker} alt="L" />
           </div>
         </div>
       </>

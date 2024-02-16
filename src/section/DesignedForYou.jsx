@@ -3,6 +3,7 @@
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import image1 from "../assets/designed-for-you-image-1.png"
 export function DesignedForYou(){
   useEffect(()=>{
       AOS.init({duration:2000})
@@ -18,7 +19,7 @@ export function DesignedForYou(){
               <div data-aos="fade-up">- Daily, long term use <span className="text-green-500 italic">4-10 years</span></div>
             </div>
             <div data-aos="fade-down">
-              <img className="h-60 pl-10" src="src/assets/designed-for-you-image-1.png" alt="" />
+              <img className="h-60 pl-10" src={image1} alt="" />
             </div>
         </div>
     )

@@ -2,6 +2,10 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
 
+import layer1 from "../assets/spec-layer-1.png"
+import layer2 from "../assets/spec-layer-2.png"
+import layer3 from "../assets/spec-layer-3.png"
+
 import { FaArrowRight } from "react-icons/fa";
 export function Interested(){
   useEffect(()=>{
@@ -22,9 +26,9 @@ export function Interested(){
               </div>
           </div>
           <div className='sm:flex hidden flex-col justify-center absolute lg:right-34 right-10'>
-            <img className='h-40 z-30 flex relative bottom-[-60px]' src="src/assets/spec-layer-1.png" alt="L" />
-            <img className='h-40 z-20 flex relative bottom-[20px]' src="src/assets/spec-layer-2.png" alt="L" data-aos="fade-down"/>
-            <img className='h-40 z-10  flex relative bottom-[100px] ' src="src/assets/spec-layer-3.png" alt="L" data-aos="fade-down"/>
+            <img className='h-40 z-30 flex relative bottom-[-60px]' src={layer1} alt="L" />
+            <img className='h-40 z-20 flex relative bottom-[20px]' src={layer2} alt="L" data-aos="fade-down"/>
+            <img className='h-40 z-10  flex relative bottom-[100px] ' src={layer3} alt="L" data-aos="fade-down"/>
             {/* -20 -180 -340 */}
           </div>
         </div>

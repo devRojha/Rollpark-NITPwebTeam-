@@ -4,6 +4,14 @@ import { Tailored } from "../components/Tailored";
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+import logo1 from "../assets/truck.png"
+import logo2 from "../assets/truck2.png"
+import logo3 from "../assets/calender.png"
+import logo4 from "../assets/chair.png"
+import logo5 from "../assets/drop.png"
+import logo6 from "../assets/clock.png"
+import logo7 from "../assets/truck.png"
+
 
 export function TailoredIndus(){
     const [title, setTitle] = useState("Economic Uncertainty in the Autologistics World");
@@ -21,31 +29,31 @@ export function TailoredIndus(){
                 <Tailored onClick={()=>{
                     setTitle("Economic Uncertainty in the Autologistics World");
                     setDesc("Discover available geotextile characteristics, unique features of subgrade design, and how Rollpark holds up against asphalt and gravel.")
-                }} caption={"Autologistics"} icon={"src/assets/truck.png"}/>
+                }} caption={"Autologistics"} icon={logo1}/>
                 <Tailored onClick={()=>{
                     setTitle("Short Term Parking for Auto-manufacturers");
                     setDesc("Because auto-manufacturers have constantly fluctuating manufacturing volumes and stringent capital requirements, Rollpark is a less costly solution for quality holds and occasional large-capacity vehicle launches.");
-                }} caption={"Auto-manuacturing"} icon={"src/assets/truck2.png"}/>
+                }} caption={"Auto-manuacturing"} icon={logo2}/>
                 <Tailored onClick={()=>{
                     setTitle("Inexpensive and Safe Event Parking");
                     setDesc("Beyond parking in the mud, there isn't an effective, inexpensive, and proven temporary parking material for events besides Rollpark. Stabilize the ground and roll Rollpark directly overtop for instant parking for a few days to a month and then roll it up and re-use it at another event.");
-                }} caption={"Events"} icon={"src/assets/calender.png"}/> 
+                }} caption={"Events"} icon={logo3}/> 
                 <Tailored onClick={()=>{
                     setTitle("Proven Temporary Parking for Filming");
                     setDesc("Films often require a stable and flat surface for small segments, usually involving vehicles. Rollpark can be transformed to look exactly like asphalt, reused on multiple films, and at a low price.");
-                }} caption={"Hollywood"} icon={"src/assets/chair.png"}/>
+                }} caption={"Hollywood"} icon={logo4}/>
                 <Tailored onClick={()=>{
                     setTitle("Permitting Spells Trouble for Asphalt");
                     setDesc("Some regions have impervious surface limits, requiring solutions like Rollpark or pervious asphalt. Unlike pervious asphalt, Rollpark is far less expensive and doesn't have the same tendency to fail from clogging.");
-                }} caption={"Permitting Restrictions"} icon={"src/assets/drop.png"}/>
+                }} caption={"Permitting Restrictions"} icon={logo5}/>
                 <Tailored onClick={()=>{
                     setTitle("Don't Put Asphalt On Land You'll Develop in 5 Years");
                     setDesc("Universities are constantly expanding, which is good for universities, but bad for their parking capacity. When land is available it is usually only available temporarily. Rollpark can be used for land the university intends to develop without the same cost-restrictions as asphalt (both for installation and tear down).");
-                }} caption={"Universities"} icon={"src/assets/clock.png"}/>
+                }} caption={"Universities"} icon={logo6}/>
                 <Tailored onClick={()=>{
                     setTitle("Parking Garages Take Time To Build");
                     setDesc("While you wait for a massive parking garage to be designed, built, and approved, use Rollpark to park your clients so as to not waste revenue while waiting.");
-                }} caption={"Parking Managers"} icon={"src/assets/truck.png"}/>
+                }} caption={"Parking Managers"} icon={logo7}/>
             </div>
             </div>
             <div className='flex border-b bg-white pb-10'>

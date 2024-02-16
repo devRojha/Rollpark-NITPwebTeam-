@@ -1,5 +1,6 @@
 
-
+import icon1 from "../assets/profile.png"
+import icon2 from "../assets/faq.png"
 export function GotAQuestion(){
     return (
         <div className='flex  max-md:flex-col pt-8 pb-10 bg-slate-100 mb-[490px] shadow-md'>
@@ -8,7 +9,7 @@ export function GotAQuestion(){
             <div className="flex flex-col justify-center mb-2 max-sm:absolute left-10 ">
               <button className='flex  hover:text-green-500 '>
                 <div className='text-1xl font-semibold mr-1'>
-                <img className="" src="src/assets/profile.png" alt="" />
+                <img className="" src={icon1} alt="" />
                 </div>
                 <div className='flex flex-col justify-center text-1xl font-semibold h-full'>Got a Question?</div>
               </button>
@@ -18,7 +19,7 @@ export function GotAQuestion(){
             <div className="flex flex-col justify-center mb-2 max-sm:absolute left-12">
               <button className='flex hover:text-green-500'>
                 <div className='text-1xl font-semibold mr-1'>
-                  <img className="mr-2" src="src/assets/faq.png" alt="" />
+                  <img className="mr-2" src={icon2} alt="" />
                 </div>
                 <div className='flex flex-col justify-center text-1xl font-semibold h-full'>Read FAQ</div>
               </button>

@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { CirculButton } from "../components/CirculButton";
-import { Info } from "../components/Info";
 import { FaPlay } from "react-icons/fa";
 import AOS from "aos"
 import "aos/dist/aos.css"
-
+import video1 from "../assets/hero.mp4"
 export function Start({fullPlay , setFullPlay}){
     const subtitle = ["spacial event","universities","municipalities","automanufacturers", "airports"]
     const [counter , setCounter] = useState(0);
@@ -42,7 +41,7 @@ export function Start({fullPlay , setFullPlay}){
               <div className='flex text-sm'>Not Asphalt. Not Gravel.<span className='text-green-600 ml-1 font-semibold'>Geotextile.</span></div>
             </div>
           <div className='h-full overflow-hidden'>
-            <video className={`${fullPlay?"fixed h-screen w-100vw z-40":"h-full"} object-cover bg-white`} autoPlay src="src/assets/hero.mp4"></video>
+            <video className={`${fullPlay?"fixed h-screen w-100vw z-40":"h-full"} object-cover bg-white`} autoPlay src={video1}></video>
           </div>
         </div>
         {/* after mid */}
@@ -61,7 +60,7 @@ export function Start({fullPlay , setFullPlay}){
             <div className='flex text-xl'>Not Asphalt. Not Gravel.<span className='text-green-600 ml-1 font-semibold'>Geotextile.</span></div>
           </div>
           <div className='h-full overflow-hidden'>
-            <video className={`${fullPlay?"fixed h-screen w-100vw z-40":"h-full w-full"} object-cover bg-white`} autoPlay src="src/assets/hero.mp4"></video>
+            <video className={`${fullPlay?"fixed h-screen w-100vw z-40":"h-full w-full"} object-cover bg-white`} autoPlay src={video1}></video>
           </div>
         </div>
       </>

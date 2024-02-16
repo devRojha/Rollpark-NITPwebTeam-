@@ -4,6 +4,11 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
 
+import logo1 from "../assets/patent-logo-1.png"
+import logo2 from "../assets/patent-logo-2.png"
+import logo3 from "../assets/patent-logo-3.png"
+import map from "../assets/map.png"
+
 export function Patented(){
     useEffect(()=>{
         AOS.init({duration:2000})
@@ -23,26 +28,26 @@ export function Patented(){
             <div className="grid grid-cols-3 text-slate-500 text-sm mt-4">
                 <div className="flex flex-col">
                     <div>
-                        <img className="h-10" src="src/assets/patent-logo-1.png" alt="" data-aos="fade-up"/>
+                        <img className="h-10" src={logo1} alt="" data-aos="fade-up"/>
                     </div>
                     <div className="p-8 pl-0 pt-1" data-aos="fade-up">Industrial Fabrics International Award</div>
                 </div>
                 <div className="flex flex-col">
                     <div>
-                        <img className="h-10" src="src/assets/patent-logo-2.png" alt="" data-aos="fade-up"/>
+                        <img className="h-10" src={logo2} alt="" data-aos="fade-up"/>
                     </div>
                     <div className="p-8 pl-0 pt-1" data-aos="fade-up">Top 3 of 100 suppliers by CSX</div>
                 </div>
                 <div className="flex flex-col ">
                     <div>
-                        <img className="h-10" src="src/assets/patent-logo-3.png" alt="" data-aos="fade-up"/>
+                        <img className="h-10" src={logo3} alt="" data-aos="fade-up"/>
                     </div>
                     <div className="p-8 pl-0 pt-1" data-aos="fade-up">3 Safety Awards from Advocare</div>
                 </div>
             </div>
           </div>
           <div className='border  flex flex-col justify-center bg-slate-700'>
-            <img className="h-full" src="src/assets/map.png" alt="" />
+            <img className="h-full" src={map} alt="" />
           </div>
           </div>
           <button onClick={()=>{

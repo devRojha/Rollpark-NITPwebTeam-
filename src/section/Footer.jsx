@@ -37,6 +37,7 @@ export function Footer({setQuote}){
         <div className='grid  grid-cols-3  fixed bottom-0 bg-white w-full p-3 shadow-lg'>
           <div className='flex'>
             <div className='text-slate-700 flex flex-col justify-center mr-2'>
+              {/* here */}
               <img className="h-20 max-sm:h-10 " src="src/assets/icon.png" alt="" />
             </div>
             <div className='flex flex-col justify-center'>

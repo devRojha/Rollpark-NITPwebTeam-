@@ -2,8 +2,7 @@ import { GreedComponent } from "../components/GreedComponent";
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react";
-
-
+import logo from "../assets/icon04.png"
 export function AsphaltGravel(){
   useEffect(()=>{
     AOS.init({duration:2000});
@@ -22,7 +21,7 @@ export function AsphaltGravel(){
           <div className='flex justify-center mt-4'>
             <div className='grid grid-cols-3 w-[60%] md:text-1xl max-md:text-[10px] max-sm:text-[7px] pb-4'>
               <div className='flex'>
-                <img className='h-8 max-sm:h-3' src="src/assets/icon04.png" alt="I" data-aos="fade"/>
+                <img className='h-8 max-sm:h-3' src={logo} alt="I" data-aos="fade"/>
                 <div className='w-full flex justify-center text-slate-400'>imprevious</div>
               </div>
               <div className='justify-center flex font-bold'>Permeable</div>
@@ -32,32 +31,32 @@ export function AsphaltGravel(){
           <div className='flex justify-center mt-4'>
             <div className='grid grid-cols-3 w-[60%] md:text-1xl max-md:text-[10px] max-sm:text-[7px] pb-4'>
               <div className='flex'>
-                <img className='h-8 max-sm:h-3' src="src/assets/icon04.png" alt="I" data-aos="fade"/>
+                <img className='h-8 max-sm:h-3' src={logo} alt="I" data-aos="fade"/>
                 <div className='w-full flex justify-center text-slate-400'>Expensive</div>
               </div>
               <div className='justify-center flex font-bold'>Less Expensive</div>
               <div className='justify-center flex font-bold'>Comparable Cost</div>
             </div>
           </div>
-          <GreedComponent icon={"src/assets/icon04.png"} first={"Cannot be reused"} second={"Re-usable"} third={"Not usually reused"}/>
+          <GreedComponent icon={logo} first={"Cannot be reused"} second={"Re-usable"} third={"Not usually reused"}/>
           <div className='flex justify-center mt-4'>
             <div className='grid grid-cols-3 w-[60%] md:text-1xl max-md:text-[10px] max-sm:text-[7px] pb-4'>
               <div className='flex'>
-                <img className='h-8 max-sm:h-3' src="src/assets/icon04.png" alt="I" data-aos="fade"/>
+                <img className='h-8 max-sm:h-3' src={logo} alt="I" data-aos="fade"/>
                 <div className='w-full flex justify-center text-slate-400'>15 years life</div>
               </div>
               <div className='justify-center flex  text-slate-400'>7+ years life</div>
               <div className='justify-center flex  text-slate-400'>5-7 years life</div>
             </div>
           </div>
-          <GreedComponent icon={"src/assets/icon04.png"} first={"2-3 weeks per acre"} second={"1 week per acre"} third={"-1 week per acre"}/>
-          <GreedComponent icon={"src/assets/icon04.png"} first={"ADA accessible"} second={"ADA accessible"} third={"Not ADA accessible"}/>
-          <GreedComponent icon={"src/assets/icon04.png"} first={"No LEED"} second={"Up to 7 LEED"} third={"No LEED"}/>
-          <GreedComponent icon={"src/assets/icon04.png"} first={"Cannot be rented"} second={"Rentable"} third={"Cannot be rented"}/>
+          <GreedComponent icon={logo} first={"2-3 weeks per acre"} second={"1 week per acre"} third={"-1 week per acre"}/>
+          <GreedComponent icon={logo} first={"ADA accessible"} second={"ADA accessible"} third={"Not ADA accessible"}/>
+          <GreedComponent icon={logo} first={"No LEED"} second={"Up to 7 LEED"} third={"No LEED"}/>
+          <GreedComponent icon={logo} first={"Cannot be rented"} second={"Rentable"} third={"Cannot be rented"}/>
           <div className='flex justify-center mt-4 mb-10'>
             <div className='grid grid-cols-3 w-[60%] md:text-1xl max-md:text-[10px] max-sm:text-[7px] pb-4'>
               <div className='flex'>
-                <img className='h-8 max-sm:h-3' src="src/assets/icon04.png" alt="I" data-aos="fade"/>
+                <img className='h-8 max-sm:h-3' src={logo} alt="I" data-aos="fade"/>
                 <div className='w-full flex justify-center text-slate-400'>Easy Maintenance</div>
               </div>
               <div className='flex justify-center pl-10  text-slate-400'>Moderate Maintenance</div>

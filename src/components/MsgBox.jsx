@@ -6,7 +6,7 @@
 
 
 import { FaRegSmile } from "react-icons/fa";
-
+import msg from "../assets/magicon.png"
 
 export function MsgBox({isokk}){
     return (
@@ -14,7 +14,7 @@ export function MsgBox({isokk}){
             <div className="grid grid-cols-1">
                 <div className="flex">
                     <div className="h-12 w-12 border rounded-full mr-4 ml-4 relative -top-5 p-2 bg-white">
-                        <img className="h-full w-full" src="src/assets/magicon.png" alt="" />
+                        <img className="h-full w-full" src={msg} alt="" />
                     </div>
                     <div className="h-full  flex flex-col justify-center">
                         <div className="text-[10px] text-slate-400">Basil Polvika form Rolloark</div>
