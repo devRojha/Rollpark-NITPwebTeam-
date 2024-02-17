@@ -14,7 +14,7 @@ export function ApMenu({menu, setMenu}){
         return(
             <div className="fixed bg-green-500 h-screen w-full top-0 z-40" data-aos="fade-right">
                 <div className="flex flex-col">
-                    <button onClick={()=>{setMenu(false)}} className="flex flex-col justify-centerborder h-16 text-4xl text-white ">
+                    <button onClick={()=>{setMenu(false)}} className="flex flex-col justify-center border h-16 text-4xl text-white ">
                         <div className="rotate-45 absolute ml-2"> <IoMdAdd/> </div>
                     </button>
                     <div className="flex flex-col text-6xl text-slate-700 font-bold space-y-4 pl-4">

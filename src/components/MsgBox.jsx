@@ -24,7 +24,7 @@ export function MsgBox({isokk}){
                     <div className="text-sm mb-2">Hey, how can I help you? Just in case I'm away from my desk, can you please include your name, company, phone, and email address? Thanks!</div>
                 </div>
                 <div className="flex">
-                    <input className="focus:outline-none border-l border-t border-b text-sm h-8 w-full pl-2 placeholder:text-slate-500" type="text" border placeholder="write a reply..." />
+                    <input className="focus:outline-none border-l border-t border-b text-sm h-8 w-full pl-2 placeholder:text-slate-500" type="text" placeholder="write a reply..." />
                     <button className="border-r border-t border-b h-8 flex flex-col justify-center pr-2 cursor-pointer"><FaRegSmile /></button>
                 </div>
             </div>

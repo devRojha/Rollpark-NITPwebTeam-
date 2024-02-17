@@ -35,7 +35,7 @@ export function Footer({setQuote}){
                 Save on your next parking project with Rollpark, the most advanced and eco-friendly semi-permanent parking solution to date.
             </div>
         </div>
-        <div className='grid  grid-cols-3  fixed bottom-0 bg-white w-full p-3 shadow-lg'>
+        <div className='grid  grid-cols-3  fixed bottom-0 bg-slate-200 w-full p-3 shadow-lg'>
           <div className='flex'>
             <div className='text-slate-700 flex flex-col justify-center mr-2'>
               {/* here */}

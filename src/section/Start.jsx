@@ -29,15 +29,14 @@ export function Start({fullPlay , setFullPlay}){
         <div className='md:hidden  max-md:h-[100vh] lg:h-[80vh]'>
             <div className='flex flex-col absolute  bottom-20 left-6 bg-transparent text-white'>
               <div>
-                <button onClick={()=>{
-                  console.log("true");
+                <button onClick={() => {
                   setFullPlay(true);
-                }} className='border h-[50px] w-[50px]  rounded-full bg-green-500 hover:bg-green-300 flex justify-center pt-4'>
+                }} className="border border-green-500 h-[50px] w-[50px] rounded-full bg-transparent hover:bg-green-300 flex justify-center pt-4">
                   <FaPlay />
                 </button>
               </div>
               <div className='text-4xl font-bold mt-4 mb-4'>COMMERCIAL PARKING</div>
-              <div className='mb-6 text-3xl'>for {update}</div>
+              <div className='mb-6 text-3xl italic'>for {update}</div>
               <div className='flex text-sm'>Not Asphalt. Not Gravel.<span className='text-green-600 ml-1 font-semibold'>Geotextile.</span></div>
             </div>
           <div className='h-full overflow-hidden'>
@@ -47,16 +46,15 @@ export function Start({fullPlay , setFullPlay}){
         {/* after mid */}
         <div className='max-md:hidden h-[80vh] '>
           <div className='flex flex-col absolute  top-80 left-20 bg-transparent text-white'>
-            <div>
-              <button onClick={()=>{
-                 console.log("true");
-                 setFullPlay(true);
-              }} className='border border-green-500 h-[50px] w-[50px]  rounded-full bg-transparent hover:bg-green-300 flex justify-center pt-4'>
-                <FaPlay />
-              </button>
-            </div>
+              <div>
+                <button onClick={() => {
+                  setFullPlay(true);
+                }} className="border border-green-500 h-[50px] w-[50px] rounded-full bg-transparent hover:bg-green-300 flex justify-center pt-4">
+                  <FaPlay />
+                </button>
+              </div>
             <div className='text-6xl font-bold mt-4 mb-4'>COMMERCIAL PARKING</div>
-            <div className='mb-6 text-5xl' data-aos="fade-up">for {update}</div>
+            <div className='mb-6 text-5xl italic' data-aos="fade-up">for {update}</div>
             <div className='flex text-xl'>Not Asphalt. Not Gravel.<span className='text-green-600 ml-1 font-semibold'>Geotextile.</span></div>
           </div>
           <div className='h-full overflow-hidden'>
