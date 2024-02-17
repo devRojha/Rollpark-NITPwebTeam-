@@ -8,6 +8,9 @@ import logo1 from "../assets/patent-logo-1.png"
 import logo2 from "../assets/patent-logo-2.png"
 import logo3 from "../assets/patent-logo-3.png"
 import map from "../assets/map.png"
+import people from "../assets/people.png"
+import office from "../assets/office.png"
+import head from "../assets/head.png"
 
 export function Patented(){
     useEffect(()=>{
@@ -47,6 +50,74 @@ export function Patented(){
             </div>
           </div>
           <div className='border  flex flex-col justify-center bg-slate-700'>
+            <div className="bg-transparent w-full ">
+                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
+                    <div className="flex">
+                        <div className="flex flex-col">
+                            <div className="flex mr-4">
+                                <img src={people} alt="" data-aos="fade-up"/>
+                                <div className="text-2xl font-bold" data-aos="fade-up">150</div>
+                            </div>
+                            <div className="text-slate-400 text-sm" data-aos="fade-up">employee</div>
+                        </div>
+                        <div className="flex flex-col">
+                            <div className="flex mr-4">
+                                <img src={office} alt="" data-aos="fade-up"/>
+                                <div className="text-2xl font-bold" data-aos="fade-up">5</div>
+                            </div>
+                            <div className="text-slate-400 text-sm" data-aos="fade-up">office</div>
+                        </div>
+                        <div className="flex flex-col">
+                            <div className="flex">
+                                <img src={head} alt="" data-aos="fade-up"/>
+                                <div className="text-2xl font-bold" data-aos="fade-up">60</div>
+                            </div>
+                            <div className="text-slate-400 text-sm" data-aos="fade-up">years of experience</div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div className="bg-transparent w-full ">
+                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
+                    <div className="relative top-48">
+                        <div className="flex" data-aos="fade-up">
+                            <div className="h-4 w-4 rounded-full bg-green-500 mr-3"></div>
+                            <div className="">calgari</div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div className="bg-transparent w-full ">
+                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
+                    <div className="relative top-60 left-20">
+                        <div className="flex" data-aos="fade-up">
+                            <div className="h-4 w-4 rounded-full bg-green-500 mr-3"></div>
+                            <div className="">Warren</div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div className="bg-transparent w-full ">
+                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
+                    <div className="relative top-80 left-20">
+                        <div className="flex" data-aos="fade-up">
+                            <div className="h-4 w-4 rounded-full bg-green-500 mr-3"></div>
+                            <div className="">Dallas</div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div className="bg-transparent w-full ">
+                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
+                    <div className="relative top-80 left-80">
+                        <div className="flex" data-aos="fade-up">
+                            <div className="mr-3">Londan</div>
+                            <div className="h-4 w-4 rounded-full bg-green-500 "></div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
             <img className="h-full" src={map} alt="" />
           </div>
           </div>
