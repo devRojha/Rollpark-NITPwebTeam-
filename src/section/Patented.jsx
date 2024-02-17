@@ -98,26 +98,7 @@ export function Patented(){
                     </div>                    
                 </div>
             </div>
-            <div className="bg-transparent w-full ">
-                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
-                    <div className="relative top-80 left-20">
-                        <div className="flex" data-aos="fade-up">
-                            <div className="h-4 w-4 rounded-full bg-green-500 mr-3"></div>
-                            <div className="">Dallas</div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
-            <div className="bg-transparent w-full ">
-                <div className="bg-transparent absolute  pl-10 pt-10 text-white">
-                    <div className="relative top-80 left-80">
-                        <div className="flex" data-aos="fade-up">
-                            <div className="mr-3">Londan</div>
-                            <div className="h-4 w-4 rounded-full bg-green-500 "></div>
-                        </div>
-                    </div>                    
-                </div>
-            </div>
+            
             <img className="h-full" src={map} alt="" />
           </div>
           </div>
